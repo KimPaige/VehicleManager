@@ -8,11 +8,32 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">Vehicle Manager Home</h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          This page will contain table with information pertaining to different vehicles.
         </p>
+
+      <table id="simple-board">
+      <tbody>
+         <tr id="row0">
+           <td id="cell0-0">Make: </td>
+           <td id="cell0-1">Honda </td>
+         </tr>
+         <tr id="row1">
+           <td id="cell1-0">Model: </td>
+           <td id="cell2-1">CBE </td>
+         </tr>
+         <tr id="row2">
+           <td id="cell2-0">Year: </td>
+           <td id="cell2-1">2016 </td>
+         </tr>
+         <tr id="row3">
+           <td id="cell3-0">Registration: </td>
+           <td id="cell0-0">XXX111 </td>
+         </tr>
+       </tbody>
+     </table>
       </div>
     );
   }
