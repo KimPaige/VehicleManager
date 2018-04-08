@@ -22,6 +22,38 @@
   font-size: large;
 }
 
+/* .App-table tr td{
+  border: 1px solid cyan;
+} */
+
+.App-table{
+  border-collapse: collapse;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+tr {
+  height: 50px;
+}
+
+td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  text-align: left;
+}
+
+tr td {
+  border-bottom: 1px solid #b3edff;
+  border-left: 1px solid #b3edff;
+  border-right: 1px solid #b3edff;
+  border-top: 1px solid #b3edff;
+}
+
+tr:hover {background-color: #b3edff;}
+/* tr:nth-child(even) {background-color: grey;} */
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

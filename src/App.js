@@ -14,7 +14,7 @@ class App extends Component {
           This page will contain table with information pertaining to different vehicles.
         </p>
 
-      <table id="simple-board">
+      <table className="App-table">
       <tbody>
          <tr id="row0">
            <td id="cell0-0">Make: </td>
