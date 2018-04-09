@@ -35,12 +35,11 @@
 
 tr {
   height: 50px;
+  width: 200px;
 }
 
 td {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
+  padding: 10px;
   text-align: left;
 }
 
@@ -53,28 +52,6 @@ tr td {
 
 tr:hover {background-color: #b3edff;}
 /* tr:nth-child(even) {background-color: grey;} */
-
-.NavBar {
-  background-color: #222;
-  /* float: center; */
-  overflow: hidden;
-}
-
-.NavBar a {
-  float: center;
-  align-items: center;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.NavBar a:hover {
-  background-color: #ddd;
-  color: black;
-}
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
