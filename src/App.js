@@ -5,15 +5,30 @@ import './App.css';
 class App extends Component {
   render() {
     return (
+
+      //Header
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Vehicle Manager Home</h1>
         </header>
-        <p className="App-intro">
+       
+
+      {/*  Navigator  */}
+
+      <div className="NavBar">
+        <a href="#home" class="active">Home</a>
+        <a href="#cars">Cars</a>
+        <a href="#Bikes">Bikes</a>
+        <a href="#other">Other</a>
+        <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+      </div>
+
+       <p className="App-intro">
           This page will contain table with information pertaining to different vehicles.
         </p>
 
+       {/* Table */}
       <table className="App-table">
       <tbody>
          <tr id="row0">
@@ -38,5 +53,14 @@ class App extends Component {
     );
   }
 }
+
+// function myFunction() {
+//   var x = document.getElementById("NavBar");
+//   if (x.className === "NavBar") {
+//       x.className += " responsive";
+//   } else {
+//       x.className = "NavBar";
+//   }
+// }
 
 export default App;
