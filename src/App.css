@@ -3,15 +3,22 @@
 }
 
 .Header-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  height: 100%;
+  float: left;
 }
 
 .Header {
+  text-align: left;
   background-color: #222;
   height: 150px;
   padding: 20px;
   color: white;
+}
+
+.Header h3 {
+  position: relative;
+  top: 50px;
+  font-family: "Lucida Console", Monaco, monospace;
 }
 
 .Header-title {
@@ -50,10 +57,20 @@ tr td {
   border-top: 1px solid #b3edff;
 }
 
+.HorzNav{
+  background-color: #333;
+  overflow: hidden;
+}
+
+.HorzNav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
 tr:hover {background-color: #b3edff;}
 /* tr:nth-child(even) {background-color: grey;} */
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
