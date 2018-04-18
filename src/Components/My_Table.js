@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './App.css';
-import Motorbike from './Motorbike.jpg';
+import '../App.css';
+import Motorbike from '../Media/Motorbike.jpg';
 
 class My_Table extends Component{
     render(){
