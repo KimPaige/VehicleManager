@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './Logo.png';
 import './App.css';
 
 class My_Header extends Component {
@@ -7,7 +7,7 @@ class My_Header extends Component {
     return (
         <header className="Header">
           <img src={logo} className="Header-logo" alt="logo" />
-          <h1 className="Header-title">Vehicle Manager Home</h1>
+          <h3 className="Header-title">Vehicle Manager Home</h3>
         </header>
     );
   }
