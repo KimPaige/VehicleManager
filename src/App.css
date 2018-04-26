@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Days+One');
+
 .App {
   text-align: center;
 }
@@ -8,6 +10,7 @@
 }
 
 .Header {
+  font-family: 'Days One';
   text-align: left;
   background-color: #222;
   height: 150px;
@@ -18,10 +21,19 @@
 .Header h3 {
   position: relative;
   top: 50px;
-  font-family: "Lucida Console", Monaco, monospace;
+}
+
+.Header p {
+  position: relative;
+  float: right;
+}
+
+.Header a {
+  color: white;
 }
 
 .Header-title {
+  text-align: left;
   font-size: 1.5em;
 }
 
@@ -58,6 +70,7 @@ tr td {
 }
 
 .HorzNav{
+  font-family: 'Days One';
   background-color: #333;
   overflow: hidden;
 }
@@ -68,9 +81,58 @@ tr td {
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
   font-size: 17px;
 }
 
-tr:hover {background-color: #b3edff;}
-/* tr:nth-child(even) {background-color: grey;} */
+.HorzNav a:not(.current){
+  text-decoration: none;
+}
+
+.current {
+  text-decoration:none; 
+  border-bottom: 2px solid #629316;
+}
+
+HorzNav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.HorzNav .a .Link .to {
+  color: red !important;
+}
+
+.linkClass {
+  padding: 0 !important;
+}
+
+.My_footer {
+    background-color: #222;
+    height: 50px;
+    padding: 20px;
+    color: white;
+}
+
+.flex-box {
+    font-family: 'Days One';
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color:  #629316;
+    border-width: 2px;
+}
+
+.menu-item {
+    width: 100px;
+    height: 60px;
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+    border-radius: 50%;
+    border-color:  #629316;
+    border-width: 2px;
+    border-style: solid;
+}
